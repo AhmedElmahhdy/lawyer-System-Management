@@ -44,8 +44,8 @@ const userSchema = new Schema({
         default: false
     },
     userImage:{
-        secure_url:{type:String,required:true},
-        public_id:{type:String,required:true,unique:true}
+        secure_url:{type:String,},
+        public_id:{type:String,unique:true}
       },
       folderid:{
           type:String
